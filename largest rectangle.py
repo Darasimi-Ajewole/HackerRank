@@ -1,7 +1,7 @@
 def largereg(arr):
     i = 0; j = 0;max_area = 0; length = len(arr)
     while i < length:
-        new_h = int(arr[i]) #Present value
+        new_h = int(arr[i])  #Present value
         new_area = [new_h,new_h,new_h]
         if new_h<1 or new_h>10**6:
             raise ValueError
@@ -17,7 +17,7 @@ def largereg(arr):
                     break
             max_area = max(max_area,new_area[1])
             
-        if j:   #Right of present value
+        if j:    #Right of present value
             counter = 1
             k = j
             while k:
