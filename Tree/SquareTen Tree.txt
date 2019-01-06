@@ -1,0 +1,19 @@
+def decmp(l,r,k,ans):
+    if r%10 == 0 and (l-1)%10 == 0:
+        ans.append()
+    elif l-r:
+        if k == 0:
+            dif = l-r
+            if l%10 > l-r:
+                "wait"
+            elif l%10 < l-r:
+                
+    div = 10**2(k-1)
+
+
+
+
+
+
+L = int(input()); R = int(input()); k = 0; ans = []
+decmp(L,R,k,ans)
